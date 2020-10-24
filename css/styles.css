@@ -1,0 +1,8 @@
+.tag {
+  cursor: pointer;
+}
+
+.img-responsive {
+  height: 500px;
+  object-fit: cover;
+}

@@ -120,21 +120,10 @@ a#scrollUp i{
   background: #0083C9;
 }
 
-.fa-twitter:hover  {
-	background:#5BBCEC;
-}
-
-.fa-linkedin:hover  {
+.fa-instagram:hover  {
 	background:#FF4518;
 }
 
-.fa-dribbble:hover  {
-	background:#90C9DC;
-}
-
-.fa-google-plus:hover  {
-	background:#CE3C2D;
-}
 
 .header-middle .container .row {
   border-bottom: 1px solid #f5f5f5;
