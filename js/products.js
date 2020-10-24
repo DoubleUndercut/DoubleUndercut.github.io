@@ -119,7 +119,7 @@ export const products = [
     category: "separadores",
     subcategory: "Game of Thrones",
     tag: "Game of Thrones",
-    image: "./images/shop/GOT/GOT1.jpg",
+    image: "./images/shop/GOT/GOT1.JPG",
     isNew: false,
     isSale: false,
   },
