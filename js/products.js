@@ -3,7 +3,6 @@ export const products = [
   {
     name: "Organizador para audifonos de Batman",
     startingPrice: "2",
-    maxPrice: "15",
     category: "Varios",
     tag: "DC comics",
     image: "./images/shop/dc_comics/batman_earphone_holder.jpg",
@@ -21,7 +20,7 @@ export const products = [
   },
   {
     name: "Soporte para Alexa de Mujer Maravilla",
-    startingPrice: "20",
+    startingPrice: "25",
     category: "Adornos",
     subcategory: "DC comics",
     tag: "DC comics",
@@ -55,7 +54,7 @@ export const products = [
     category: "Llaveros",
     subcategory: "DC comics",
     tag: "DC comics",
-    image: "./images/shop/dc_comics/llavero_Superman.png",
+    image: "./images/shop/dc_comics/llavero_Superman.jpg",
     isNew: false,
     isSale: false,
   },
@@ -63,6 +62,7 @@ export const products = [
   {
     name: "Figura Raven",
     startingPrice: "5", //5-20$
+    maxPrice: "20",
     category: "Figuras",
     subcategory: "Fortnite",
     tag: "Fortnite",
@@ -73,10 +73,11 @@ export const products = [
   {
     name: "Figura cofre de Fortnite",
     startingPrice: "8",//8-20$
+    maxPrice: "20",
     category: "Figuras",
     subcategory: "Fortnite",
     tag: "Fortnite",
-    image: "./images/shop/Fortnite/cofre.png",
+    image: "./images/shop/Fortnite/cofre.jpg",
     isNew: false,
     isSale: false,
   },
@@ -97,13 +98,14 @@ export const products = [
     category: "Adornos",
     subcategory: "Game of Thrones",
     tag: "Game of Thrones",
-    image: "./images/shop/GOT/desk_calendar.png",
+    image: "./images/shop/GOT/desk_calendar.jpg",
     isNew: false,
     isSale: false,
   },
   {
     name: "Huevo de Dragón",
     startingPrice: "8", //8-22
+    maxPrice: "22",
     category: "Figuras",
     subcategory: "Game of Thrones",
     tag: "Game of Thrones",
@@ -147,7 +149,7 @@ export const products = [
     category: "separadores",
     subcategory: "Harry Potter",
     tag: "Harry Potter",
-    image: "./images/shop/Harry Potter/bookmark_casas.png",
+    image: "./images/shop/Harry Potter/bookmark_casas.jpg",
     isNew: false,
     isSale: false,
   },
@@ -157,7 +159,7 @@ export const products = [
     category: "separadores",
     subcategory: "Harry Potter",
     tag: "Harry Potter",
-    image: "./images/shop/Harry Potter/Bookmark_reliquiasdelamuerte.png",
+    image: "./images/shop/Harry Potter/Bookmark_reliquiasdelamuerte.jpg",
     isNew: false,
     isSale: false,
   },
@@ -173,6 +175,7 @@ export const products = [
   {
     name: "Figura de Harry Potter",
     startingPrice: "10", //10-25
+    maxPrice: "25",
     category: "Figuras",
     subcategory: "Harry Potter",
     tag: "Harry Potter",
@@ -186,7 +189,7 @@ export const products = [
     category: "Llaveros",
     subcategory: "Harry Potter",
     tag: "Harry Potter",
-    image: "./images/shop/Harry Potter/llavero.png",
+    image: "./images/shop/Harry Potter/llavero.jpg",
     isNew: false,
     isSale: false,
   },
@@ -202,7 +205,7 @@ export const products = [
   },
   {
     name: "Llavero de las reliquias de la muerte",
-    startingPrice: "2",
+    startingPrice: "1",
     category: "Llaveros",
     subcategory: "Harry Potter",
     tag: "Harry Potter",
@@ -215,7 +218,7 @@ export const products = [
     startingPrice: "5",
     category: "Varios",
     tag: "Harry Potter",
-    image: "./images/shop/Harry Potter/posa_vasos.png",
+    image: "./images/shop/Harry Potter/posa_vasos.jpg",
     isNew: false,
     isSale: false,
   },
@@ -225,7 +228,7 @@ export const products = [
     category: "Adornos",
     subcategory: "Harry Potter",
     tag: "Harry Potter",
-    image: "./images/shop/Harry Potter/soporte_celular.png",
+    image: "./images/shop/Harry Potter/soporte_celular.jpg",
     isNew: false,
     isSale: false,
   },
@@ -265,7 +268,7 @@ export const products = [
     category: "Adornos",
     subcategory: "Harry Potter",
     tag: "Harry Potter",
-    image: "./images/shop/Harry Potter/wand_holder.png",
+    image: "./images/shop/Harry Potter/wand_holder.jpg",
     isNew: false,
     isSale: false,
   },
@@ -273,6 +276,7 @@ export const products = [
   {
     name: "Figura Pengu de Teamfight Tactics",
     startingPrice: "8", //8-20
+    maxPrice: "20",
     category: "Figuras",
     subcategory: "League of Legends",
     tag: "League of Legends",
@@ -283,6 +287,7 @@ export const products = [
   {
     name: "Figura Pengu Tier 3 de Teamfight Tactics",
     startingPrice: "8", //8-20
+    maxPrice: "20",
     category: "Figuras",
     subcategory: "League of Legends",
     tag: "League of Legends",
@@ -293,16 +298,18 @@ export const products = [
   {
     name: "Figura Jhin Luna sangrienta",
     startingPrice: "8", //8-20
+    maxPrice: "20",
     category: "Figuras",
     subcategory: "League of Legends",
     tag: "League of Legends",
-    image: "./images/shop/League of Legends/jhin_bloodmon.png",
+    image: "./images/shop/League of Legends/jhin_bloodmon.jpg",
     isNew: false,
     isSale: false,
   },
   {
     name: "Figura Poro de League of Legends",
     startingPrice: "8", //8-20
+    maxPrice: "20",
     category: "Figuras",
     subcategory: "League of Legends",
     tag: "League of Legends",
@@ -313,6 +320,7 @@ export const products = [
   {
     name: "Figura Veigar",
     startingPrice: "8", //8-20
+    maxPrice: "20",
     category: "Figuras",
     subcategory: "League of Legends",
     tag: "League of Legends",
@@ -323,17 +331,18 @@ export const products = [
   //Mario Bros
   {
     name: "Bombillo de Estrella de Mario Bros",
-    startingPrice: "1", //8-20
+    startingPrice: "1", 
     category: "Varios",
     //subcategory: "Mario Bros",
     tag: "Mario Bros",
-    image: "./images/shop/mario_Bros/bombillo.png",
+    image: "./images/shop/mario_Bros/bombillo.jpg",
     isNew: false,
     isSale: false,
   },
   {
     name: "Figura de Planta Piraña",
     startingPrice: "8", //8-20
+    maxPrice: "20",
     category: "Figuras",
     subcategory: "Mario Bros",
     tag: "Mario Bros",
@@ -354,16 +363,18 @@ export const products = [
   {
     name: "Maceta de Mario Bros ",
     startingPrice: "10", //10-20
+    maxPrice: "20",
     category: "Macetas",
     subcategory: "Mario Bros",
     tag: "Mario Bros",
-    image: "./images/shop/mario_Bros/pot.png",
+    image: "./images/shop/mario_Bros/pot.jpg",
     isNew: false,
     isSale: false,
   },
   {
     name: "Maceta de árbol ",
     startingPrice: "6", //6-12
+    maxPrice: "12",
     category: "Macetas",
     subcategory: "Mario Bros",
     tag: "Mario Bros",
@@ -374,6 +385,7 @@ export const products = [
   {
     name: "Maceta de tubo de Mario Bros ",
     startingPrice: "6", //6-12
+    maxPrice: "12",
     category: "Macetas",
     subcategory: "Mario Bros",
     tag: "Mario Bros",
@@ -383,7 +395,7 @@ export const products = [
   },
   {
     name: "Estrella de Mario Bros ",
-    startingPrice: "1", //10-20
+    startingPrice: "1", 
     category: "Varios",
     //subcategory: "Mario Bros",
     tag: "Mario Bros",
@@ -397,7 +409,7 @@ export const products = [
     category: "Adornos",
     subcategory: "Mario Bros",
     tag: "Mario Bros",
-    image: "./images/shop/mario_Bros/switch.png",
+    image: "./images/shop/mario_Bros/switch.jpg",
     isNew: false,
     isSale: false,
   },
@@ -424,6 +436,7 @@ export const products = [
   {
     name: "Figura Pantera Negra ",
     startingPrice: "8", //10-20
+    maxPrice: "20",
     category: "Figuras",
     subcategory: "Marvel",
     tag: "Marvel",
@@ -434,6 +447,7 @@ export const products = [
   {
     name: "Figura Groot bailarin ",
     startingPrice: "10", //10-20
+    maxPrice: "20",
     category: "Figuras",
     subcategory: "Marvel",
     tag: "Marvel",
@@ -444,6 +458,7 @@ export const products = [
   {
     name: "Figura deadpool ",
     startingPrice: "8", //8-20
+    maxPrice: "20",
     category: "Figuras",
     subcategory: "Marvel",
     tag: "Marvel",
@@ -454,6 +469,7 @@ export const products = [
   {
     name: "Figura baby grooy ",
     startingPrice: "8", //8-20
+    maxPrice: "20",
     category: "Figuras",
     subcategory: "Marvel",
     tag: "Marvel",
@@ -464,16 +480,18 @@ export const products = [
   {
     name: "Figura spiderman homecoming",
     startingPrice: "8", //8-20
+    maxPrice: "20",
     category: "Figuras",
     subcategory: "Marvel",
     tag: "Marvel",
-    image: "./images/shop/marvel/spiderman.jpeg",
+    image: "./images/shop/marvel/spiderman.jpg",
     isNew: false,
     isSale: false,
   },
   {
     name: "Figura Venom y Peter Parker ",
     startingPrice: "10", //10-20
+    maxPrice: "20",
     category: "Figuras",
     subcategory: "Marvel",
     tag: "Marvel",
@@ -535,10 +553,11 @@ export const products = [
   {
     name: "Dragon Minecraft",
     startingPrice: "12", //10-20
+    maxPrice: "20",
     category: "Figuras",
     subcategory: "Minecraft",
     tag: "Minecraft",
-    image: "./images/shop/minecraft/dragon.png",
+    image: "./images/shop/minecraft/dragon.jpg",
     isNew: false,
     isSale: false,
   },
@@ -548,17 +567,18 @@ export const products = [
     category: "Llaveros",
     subcategory: "Minecraft",
     tag: "Minecraft",
-    image: "./images/shop/minecraft/llaveros.png",
+    image: "./images/shop/minecraft/llaveros.jpg",
     isNew: false,
     isSale: false,
   },
   {
     name: "Figura de Minecraft",
     startingPrice: "7", //7-14
+    maxPrice: "20",
     category: "Figuras",
     subcategory: "Minecraft",
     tag: "Minecraft",
-    image: "./images/shop/minecraft/minecraft.png",
+    image: "./images/shop/minecraft/minecraft.jpg",
     isNew: false,
     isSale: false,
   },
@@ -575,6 +595,7 @@ export const products = [
   {
     name: "Halloween Minecraft",
     startingPrice: "12", //12-20
+    maxPrice: "20",
     category: "Adornos",
     subcategory: "Minecraft",
     tag: "Minecraft",
@@ -588,7 +609,7 @@ export const products = [
     category: "Adornos",
     subcategory: "Minecraft",
     tag: "Minecraft",
-    image: "./images/shop/minecraft/switch.png",
+    image: "./images/shop/minecraft/switch.jpg",
     isNew: false,
     isSale: false,
   },
@@ -599,13 +620,14 @@ export const products = [
     category: "Adornos",
     subcategory: "Naruto",
     tag: "Naruto",
-    image: "./images/shop/naruto/naruto_symbol.png",
+    image: "./images/shop/naruto/naruto_symbol.jpg",
     isNew: false,
     isSale: false,
   },
   {
-    name: "Figura de Pikashu como Kakashi",
+    name: "Figura de Pikachu como Kakashi",
     startingPrice: "10", //10-20
+    maxPrice: "20",
     category: "Figuras",
     subcategory: "Naruto",
     tag: "Naruto",
@@ -617,6 +639,7 @@ export const products = [
   {
     name: "Maceta Bulbasaur",
     startingPrice: "6",//6-10
+    maxPrice: "10",
     category: "Macetas",
     subcategory: "Pokemon",
     tag: "Pokemon",
@@ -626,6 +649,7 @@ export const products = [
   {
     name: "Maceta Pokeball",
     startingPrice: "6",//6-10
+    maxPrice: "10",
     category: "Macetas",
     subcategory: "Pokemon",
     tag: "Pokemon",
@@ -635,6 +659,7 @@ export const products = [
   {
     name: "Maceta Oddish",
     startingPrice: "6",//6-10
+    maxPrice: "10",
     category: "Macetas",
     subcategory: "Pokemon",
     tag: "Pokemon",
@@ -647,12 +672,12 @@ export const products = [
     category: "Llaveros",
     subcategory: "Pokemon",
     tag: "Pokemon",
-    image: "./images/shop/Pokemon/llavero2.png",
+    image: "./images/shop/Pokemon/llavero2.jpg",
     isNew: false,
   },
   {
     name: "Llavero Cubone",
-    startingPrice: "2",//6-10
+    startingPrice: "2",
     category: "Llaveros",
     subcategory: "Pokemon",
     tag: "Pokemon",
@@ -661,7 +686,7 @@ export const products = [
   },
   {
     name: "Llavero Pokeball",
-    startingPrice: "2",//6-10
+    startingPrice: "2",
     category: "Llaveros",
     subcategory: "Pokemon",
     tag: "Pokemon",
@@ -671,24 +696,27 @@ export const products = [
   {
     name: "Figura Gengar",
     startingPrice: "8",//8-12
+    maxPrice: "12",
     category: "Figuras",
     subcategory: "Pokemon",
     tag: "Pokemon",
-    image: "./images/shop/Pokemon/gengar.jpeg",
+    image: "./images/shop/Pokemon/gengar.jpg",
     isNew: false,
   },
   {
     name: "Figura abra",
     startingPrice: "8",//8-12
+    maxPrice: "12",
     category: "Figuras",
     subcategory: "Pokemon",
     tag: "Pokemon",
-    image: "./images/shop/Pokemon/abra.png",
+    image: "./images/shop/Pokemon/abra.jpg",
     isNew: false,
   },
   {
     name: "Organizar de juegos de Nintendo Switch con forma de Pokeball",
     startingPrice: "8",//8-12
+    maxPrice: "12",
     category: "Adornos",
     subcategory: "Pokemon",
     tag: "Pokemon",
@@ -708,6 +736,7 @@ export const products = [
   {
     name: "Buda Darth Vader",
     startingPrice: "8",//8-12
+    maxPrice: "15",
     category: "Figuras",
     subcategory: "Star Wars",
     tag: "Star Wars",
@@ -720,7 +749,7 @@ export const products = [
     category: "Figuras",
     subcategory: "Star Wars",
     tag: "Star Wars",
-    image: "./images/shop/star_wars/rebel_ring.png",
+    image: "./images/shop/star_wars/rebel_ring.jpg",
     isNew: false,
   },
   {
@@ -753,6 +782,7 @@ export const products = [
   {
     name: "Maceta de Darth Vader",
     startingPrice: "6", //6-10
+    maxPrice: "10",
     category: "Macetas",
     subcategory: "Star Wars",
     tag: "Star Wars",
@@ -770,7 +800,7 @@ export const products = [
   },
   {
     name: "Llavero de Star Wars",
-    startingPrice: "2",
+    startingPrice: "1",
     category: "Llaveros",
     subcategory: "Star Wars",
     tag: "Star Wars",
@@ -779,7 +809,7 @@ export const products = [
   },
   {
     name: "Llavero del Halcón Milenario",
-    startingPrice: "2",
+    startingPrice: "3",
     category: "Llaveros",
     subcategory: "Star Wars",
     tag: "Star Wars",
@@ -788,7 +818,7 @@ export const products = [
   },
   {
     name: "Llavero de la Estrella de la Muerte",
-    startingPrice: "2",
+    startingPrice: "3",
     category: "Llaveros",
     subcategory: "Star Wars",
     tag: "Star Wars",
@@ -807,7 +837,8 @@ export const products = [
   //Varios
   {
     name: "Maceta de Among US con autoriego",
-    startingPrice: "2",
+    startingPrice: "10",
+    maxPrice: "20",
     category: "Macetas",
     subcategory: "Otros",
     tag: "Otros",
@@ -826,6 +857,7 @@ export const products = [
   {
     name: "Figura de Blanka de Street Fighter",
     startingPrice: "8", //8-12 
+    maxPrice: "12",
     category: "Figuras",
     subcategory: "Otros",
     tag: "Otros",
@@ -838,7 +870,7 @@ export const products = [
     category: "separadores",
     subcategory: "Otros",
     tag: "Otros",
-    image: "./images/shop/Varios/bookmark_eiffel.jpeg",
+    image: "./images/shop/Varios/bookmark_eiffel.jpg",
     isNew: false,
   },
   {
@@ -847,7 +879,7 @@ export const products = [
     category: "separadores",
     subcategory: "Otros",
     tag: "Otros",
-    image: "./images/shop/Varios/bookmark_tower.jpeg",
+    image: "./images/shop/Varios/bookmark_tower.jpg",
     isNew: false,
   },
   {
@@ -856,7 +888,7 @@ export const products = [
     category: "Varios",
     subcategory: "Otros",
     tag: "Otros",
-    image: "./images/shop/Varios/cookie_shrek.png",
+    image: "./images/shop/Varios/cookie_shrek.jpg",
     isNew: false,
   },
   {
@@ -887,17 +919,9 @@ export const products = [
     isNew: false,
   },
   {
-    name: "Cobertor de drenaje",
-    startingPrice: "3", 
-    category: "Varios",
-    subcategory: "Otros",
-    tag: "Otros",
-    image: "./images/shop/Varios/drainer.png",
-    isNew: false,
-  },
-  {
     name: "Figura de Puro Hueso de Billy y Mandy",
     startingPrice: "10", //10-25 
+    maxPrice: "25",
     category: "Figuras",
     subcategory: "Otros",
     tag: "Otros",
@@ -907,15 +931,17 @@ export const products = [
   {
     name: "Raze de Valorant en Among Us",
     startingPrice: "10", //10-25 
+    maxPrice: "25",
     category: "Figuras",
     subcategory: "Otros",
     tag: "Otros",
-    image: "./images/shop/Varios/figura_razeau.jpeg",
+    image: "./images/shop/Varios/figura_razeau.jpg",
     isNew: false,
   },
   {
     name: "Figura de Alphonse Elric",
     startingPrice: "10", //10-25 
+    maxPrice: "25",
     category: "Figuras",
     subcategory: "Otros",
     tag: "Otros",
@@ -925,6 +951,7 @@ export const products = [
   {
     name: "Figura de Fry de Futurama",
     startingPrice: "10", //10-25 
+    maxPrice: "25",
     category: "Figuras",
     subcategory: "Otros",
     tag: "Otros",
@@ -951,7 +978,8 @@ export const products = [
   },
   {
     name: "Figura del gigante de acero",
-    startingPrice: "10", //10-25 
+    startingPrice: "10", //10-25
+    maxPrice: "25", 
     category: "Figuras",
     subcategory: "Otros",
     tag: "Otros",
@@ -961,6 +989,7 @@ export const products = [
   {
     name: "Figura de Shinobu de Kimetsu no Yaiba",
     startingPrice: "15", //15-25 
+    maxPrice: "25",
     category: "Figuras",
     subcategory: "Otros",
     tag: "Otros",
@@ -997,10 +1026,11 @@ export const products = [
   {
     name: "Figura de One Punch Man",
     startingPrice: "10", //10-20 
+    maxPrice: "20",
     category: "Figuras",
     subcategory: "Otros",
     tag: "Otros",
-    image: "./images/shop/Varios/one_punch2.png",
+    image: "./images/shop/Varios/one_punch2.jpg",
     isNew: false,
   },
   {
@@ -1015,6 +1045,7 @@ export const products = [
   {
     name: "Maceta de Buho",
     startingPrice: "6", //6-10 
+    maxPrice: "10",
     category: "Macetas",
     subcategory: "Otros",
     tag: "Otros",
@@ -1024,15 +1055,17 @@ export const products = [
   {
     name: "Maceta con forma de Pirámide",
     startingPrice: "6", //6-10 
+    maxPrice: "10",
     category: "Macetas",
     subcategory: "Otros",
     tag: "Otros",
-    image: "./images/shop/Varios/pot_pyramid.png",
+    image: "./images/shop/Varios/pot_pyramid.jpg",
     isNew: false,
   },
   {
     name: "Figura de Morty",
     startingPrice: "10", //10-25 
+    maxPrice: "25",
     category: "Figuras",
     subcategory: "Otros",
     tag: "Otros",
@@ -1042,6 +1075,7 @@ export const products = [
   {
     name: "Figura de Rick",
     startingPrice: "10", //10-25 
+    maxPrice: "25",
     category: "Figuras",
     subcategory: "Otros",
     tag: "Otros",
@@ -1051,6 +1085,7 @@ export const products = [
   {
     name: "Figura de Rick bebiendo",
     startingPrice: "10", //10-25 
+    maxPrice: "25",
     category: "Figuras",
     subcategory: "Otros",
     tag: "Otros",
@@ -1096,6 +1131,7 @@ export const products = [
   {
     name: "Figura de Unicornio",
     startingPrice: "8", //8-20 
+    maxPrice: "20",
     category: "Figuras",
     subcategory: "Otros",
     tag: "Otros",
